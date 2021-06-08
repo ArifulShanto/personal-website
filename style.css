@@ -1,0 +1,161 @@
+/* common css */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* header css */
+.pw-header{
+    background-image: url(img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 180px 0;
+
+}
+.header-left{
+    padding-left: 10%;
+}
+.name{
+    color: #EC4C7A;
+    font-weight: 900;
+}
+.header-left h2{
+    font-size: 40px;
+}
+.header-left p{
+    color: #707070;
+    margin-bottom: 40px;
+}
+.header-left a{
+    border: 1px solid #EC5195;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#EC5195,#EC4B74);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header-right{
+    padding-right: 10%;
+}
+.header-right img{
+    width: 100%;
+}
+.biography{
+    background-image: url(img/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+.b-left{
+    float: left;
+    width: 40%;
+    padding-left: 5%;
+    padding-top: 100px;
+}
+.b-left img{
+    width: 70%;
+}
+.b-right{
+    float: right;
+    width: 40%;
+    padding-right: 5%;
+    padding-top: 200px;
+}
+.b-right h2{
+    font-size: 40px;
+}
+.b-right p{
+    color: #707070;
+    margin-bottom: 40px;
+}
+.b-right a{
+    border: 1px solid #EC5195;
+    color: white;
+    padding: 15px 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#EC5195,#EC4B74);
+    text-decoration: none;
+    text-align: justify;
+}
+.work{
+    background-image: url(img/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    overflow: hidden;
+    padding: 200px;
+
+}
+.work h2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 400;
+}
+.work-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.w1{
+   margin-right: 40px; 
+}
+.w1 img{
+    width: 100%
+}
+
+.client{
+    background-image: url(img/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.top{
+    text-align: center;
+    padding: 10% 40% 3%;
+}
+.top h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.top span{
+    color: #707070;
+    font-size: 15px;
+}
+.top p{
+    color: #313131;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.bottom{
+    text-align: center;
+    padding-bottom: 15%;
+}
+.bottom-text{
+    border: 1px solid #EC5195;
+    background-image: linear-gradient(to right,#EC5195,#EC4B74);
+    display: inline-block;
+    padding: 50px 250px;
+    border-radius: 10px;
+}
+.bottom p{
+    color: #ffff;
+}
+.bottom h3{
+    font-size: 25px;
+    color: #ffff;
+}
+.copy-right{
+    text-align: center;
+    padding: 10px;
+    color: #707070;
+}
+
+
+
